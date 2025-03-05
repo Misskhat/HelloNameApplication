@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:rgb(223, 223, 211);
+}
+
+.container{
+  text-align: center;
+}
+
+#updateContent{
+  color: red;
+}
+
+button{
+  background-color: rgb(101, 221, 230);
+  padding: 0.5rem 1rem;
+  border: 2px solid honeydew;
+  border-radius: 5px;
+  box-shadow: 0 0 12px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: #6c63ff;
+  color: white;
+}

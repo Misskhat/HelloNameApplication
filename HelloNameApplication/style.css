@@ -18,8 +18,9 @@ body{
 }
 
 button{
-  background-color: rgb(101, 221, 230);
-  padding: 0.5rem 1rem;
+  background-color: #6c63ff;
+  font-size: 0.8rem;
+  padding: 1rem 2rem;
   border: 2px solid honeydew;
   border-radius: 5px;
   box-shadow: 0 0 12px 4px rgba(0,0,0,0.3);
@@ -28,6 +29,6 @@ button{
 }
 
 button:hover{
-  background-color: #6c63ff;
+  background-color: #72e78c;
   color: white;
 }
